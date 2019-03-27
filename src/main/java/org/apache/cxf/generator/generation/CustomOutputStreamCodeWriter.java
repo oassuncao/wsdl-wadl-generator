@@ -40,8 +40,8 @@ public class CustomOutputStreamCodeWriter extends OutputStreamCodeWriter {
 
     protected boolean ignoreFile(GeneratorResult generatorResult) {
         switch (generatorResult.getFilename()) {
-            case "package-info":
-                return true;
+//            case "package-info":
+//                return true;
             default:
                 return false;
         }
